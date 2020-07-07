@@ -1,0 +1,232 @@
+
+
+body {
+  position: relative;
+  color: black;
+  font-family: arial,sans-serif;
+  font-weight: ;
+  font-size: 20px;
+  height: 100vh;
+  background: darkmagenta;
+
+
+}
+
+body::before {
+  position: absolute;
+  content: "";
+  top:0%;
+  bottom: 0%;
+  left: 0%;
+  right: 50%;
+  z-index: -1;
+  background: lavender;
+
+}
+.registerSlots {
+  position: relative;
+  z-index: ;
+  width: 80%;
+  height: 70vh;
+  top: 8%;
+  left: 10%;
+  right: 10%;
+  bottom: 8%;
+  margin: 8%, 10%;
+  vertical-align: middle;
+  border: 1px solid purple;
+  border-radius: 10px;
+  box-shadow: 4px 5px 10px magenta,
+                -4px -5px 10px magenta;
+  background-image: url(./neatassets/purple3.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: all;
+  transition: all 0.5s ease-in;
+}
+.registerSlots::before {
+  background-image: url(./neatassets/purple3.jpg);
+  position: absolute;
+  content: "";
+  top:0%;
+  bottom: 0%;
+  left: 50%;
+  right: 0%;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+
+}
+
+
+.sign-up-slot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom:0;
+  width: 45%;
+  height: 98%;
+  padding: 5px 30px;
+  background-color: lavender;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: inline-block;
+  transition:input 0.3s;
+}
+
+.log-in-slot {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  background-color: white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: inline-block;
+  transition: 0.5s;
+  z-index: 500
+
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+.header h4 a {
+  padding: 0 40px 0 20px;
+  border: none;
+  border-bottom: 5px solid purple;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  color: purple;
+  border-radius: 3px;
+  margin-right: 1px;
+
+
+}
+
+.modal .header h4 a .purple{
+  border-color: purple;
+  border-width: 5px;
+  border-radius: 2px;
+  padding: 20px 0;
+  font-weight: bolder;
+
+}
+.modal .header a .black{
+  border-color: black;
+  border-width: 5px;
+  border-radius: 2px;
+  padding: 20px 0;
+  }
+  .sign-up-slot .header h4 a .purple{
+    border-bottom: 4px solid purple;
+    border-radius: 2px;
+    padding: 20px 0;
+
+  }
+    .sign-up-slot .header a .black{
+      border-bottom: 1px solid black;
+      border-radius: 2px;
+      padding: 20px 0;
+
+    }
+
+.log-in-slot input, .sign-up-slot input {
+  width: 80%;
+  margin: 20px auto 10px;
+  border: none;
+  border-bottom: 2px solid black;
+  outline: none;
+  padding: 10px;
+  background-color: inherit;
+
+}
+
+.sign-up-slot label {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px auto 0px;
+  border: none;
+  background-color: lavender;
+  outline: none;
+  padding: 10px;
+}
+.sign-up-slot .conclusion{
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-left: auto;
+  width: 80%;
+  margin: auto;
+}
+.sign-up-slot .remember{
+  display: flex;
+  font-size: 13px;
+  padding: 0px;
+}
+.sign-up-slot .forgot{
+  /* float:left; */
+  font-size: 13px;
+}
+.shrink{
+  font-size: 20px;
+}
+
+.log-in-slot button {
+  background-image: linear-gradient(to right, darkmagenta,black);
+  z-index: 5;
+  padding: 16px 14px;
+  width: 85%;
+  color: white;
+  box-shadow: 4px 5px 10px magenta;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  margin: auto 0;
+  cursor: pointer;
+  position: absolute;
+  outline: none;
+
+
+}
+.log-in-slot button:hover,.sign-up-slot button:hover {
+  background: darkmagenta;
+}
+.log-in-slot button:active,.sign-up-slot button:active {
+  background: black;
+
+}
+
+.sign-up-slot button {
+  background-image: linear-gradient(to right, darkmagenta,black);
+  z-index: 5;
+  padding: 16px 14px;
+  width: 43%;
+  color: white;
+  box-shadow: 4px 5px 10px magenta;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  margin: auto 0;
+  pointer-events: all;
+  position: absolute; */
+
+}
+.radaa{
+  font-size: 120%;
+  margin: 0;
+  padding: none;
+  font-weight: 600;
+  font-family:'Times New Romans';
+}
