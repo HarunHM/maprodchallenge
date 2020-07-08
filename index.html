@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width,initial scale=1.0">
     <script defer src="challenge.js"></script>
+   <!-- register service worker -->
+    <!-- register service worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js')
+                    .then(() => { console.log("[ PWA Fire Bundle ] Service Worker Registered"); });
+            });
+        }  
+    </script>
+    <!-- End of register service worker scripts -->
+    <!-- start of web manifest -->
+    <link rel="manifest" href="./manifest.json">
+    <!-- end of web manifest -->
   </head>
   <body class="landing-page" >
      <!-- <div class="landing-page"> -->
